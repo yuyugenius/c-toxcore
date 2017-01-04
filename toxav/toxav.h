@@ -703,8 +703,7 @@ void toxav_callback_audio_receive_frame(ToxAV *av, toxav_audio_receive_frame_cb 
  * @param ustride U chroma plane stride.
  * @param vstride V chroma plane stride.
  */
-typedef void toxav_video_receive_frame_cb(ToxAV *av, uint32_t friend_number, uint16_t width, uint16_t height,
-        const uint8_t *y, const uint8_t *u, const uint8_t *v, int32_t ystride, int32_t ustride, int32_t vstride,
+typedef void toxav_video_receive_frame_cb(ToxAV *av, uint32_t friend_number, char * data, size_t len,
         void *user_data);
 
 

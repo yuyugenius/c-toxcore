@@ -27,12 +27,12 @@
 #include "../toxcore/logger.h"
 #include "../toxcore/util.h"
 
-#include <vpx/vpx_decoder.h>
-#include <vpx/vpx_encoder.h>
-#include <vpx/vpx_image.h>
-
-#include <vpx/vp8cx.h>
-#include <vpx/vp8dx.h>
+//#include <vpx/vpx_decoder.h>
+//#include <vpx/vpx_encoder.h>
+//#include <vpx/vpx_image.h>
+//
+//#include <vpx/vp8cx.h>
+//#include <vpx/vp8dx.h>
 #define VIDEO_CODEC_DECODER_INTERFACE (vpx_codec_vp8_dx())
 #define VIDEO_CODEC_ENCODER_INTERFACE (vpx_codec_vp8_cx())
 
